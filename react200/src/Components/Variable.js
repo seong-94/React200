@@ -13,6 +13,8 @@ function Variable() {
   console.log("constName : " + constName);
   //   const constName = `200`;
   //parsing error message: Identifier `constName` has already been declared
+  //   constName = "react200" ;
+  // Uncaugth TypeError : Assingmnet to constant variable.
 
   return;
 }
