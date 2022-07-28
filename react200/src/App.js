@@ -2,6 +2,7 @@ import ImportComponent from "./Components/ImportComponents";
 import "./Css/App.css";
 import Es6 from "./Components/Es6";
 import Variable from "./Components/Variable";
+import SpreadOperator from "./Components/SpredOperator";
 
 function App({ pros }) {
   return (
@@ -10,7 +11,8 @@ function App({ pros }) {
       <p>HTML 적용하기 </p>
       {/* <ImportComponent /> */}
       {/* <Es6 /> */}
-      <Variable />
+      {/* <Variable />*/}
+      <SpreadOperator />
     </div>
   );
 }
