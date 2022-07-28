@@ -1,7 +1,14 @@
 import React, { Component } from "react";
+import { useEffect, useState } from "react";
 
-function ImportComponent() {
-  // console.log(`3. render called component`);
+function ImportComponent(props) {
+  // const Component = useState(props);
+
+  console.log(`3. render called component`);
+  useEffect((props) => {
+    console.log("1. Props Called");
+  }, []);
+
   return <h2>This is Imported Component</h2>;
 }
 
