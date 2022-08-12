@@ -7,6 +7,10 @@ import ForEach from "./Components/ForEach";
 import Map from "./Components/Map";
 import Props from "./Components/Props";
 import PropsNode from "./Components/PropsNode";
+import Fragments from "./Components/Fragments";
+import Fragements from "./Components/Fragments";
+import ReactStrapAlerts from "./Components/ReactStrapAlerts";
+import ReactBadge from "./Components/ReactBadge";
 
 function App() {
   return (
@@ -28,9 +32,12 @@ function App() {
         Function={console.log("functionProps")}
       /> */}
       {/* <PropsObjVal Object_Json={{ name: "리액트", number: `${200}` }} /> */}
-      <PropsNode>
+      {/* <PropsNode>
         <span> node from App.js</span>
-      </PropsNode>
+      </PropsNode> */}
+      {/* <Fragements /> */}
+      {/* <ReactStrapAlerts /> */}
+      <ReactBadge />
     </div>
   );
 }
